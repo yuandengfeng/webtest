@@ -1,0 +1,39 @@
+diff a/.idea/workspace.xml b/.idea/workspace.xml	(rejected hunks)
+@@ -34,22 +34,34 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
++      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/pom.xml">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="0.7346154">
++            <state vertical-scroll-proportion="-14.925926">
+               <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
++      <file leaf-file-name="DateMain.java" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/rabbitMQ/DateMain.java">
++          <provider selected="true" editor-type-id="text-editor">
++            <state vertical-scroll-proportion="0.35934663">
++              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
+       <file leaf-file-name="RabbitMQConsumer.java" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/rabbitMQ/RabbitMQConsumer.java">
+           <provider selected="true" editor-type-id="text-editor">
+             <state vertical-scroll-proportion="0.0">
+               <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+-              <folding />
++              <folding>
++                <element signature="imports" expanded="false" />
++              </folding>
+             </state>
+           </provider>
+         </entry>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+<script type="text/javascript">
+
+    function member(name,gender)
+    {
+        this.name=name;
+        this.gender=gender;
+    }
+
+    function showProperty(obj,objString){
+
+        var str="";
+        for(var i in obj)
+        {
+            str +=objString+"."+i+"="+obj[i] +"<br>";
+        }
+        return str;
+    }
+    var obj=new member("刘德华","男");
+    document.writeln(showProperty(obj,"person"));
+
+</script>
+</body>
+</html>

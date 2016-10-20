@@ -1,0 +1,108 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>servlet.HelloWorldServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <servlet-class>servlet.UserLogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserLoginServlet</servlet-name>
+        <url-pattern>/UserLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginSession</servlet-name>
+        <servlet-class>servlet.LoginSession</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginSession</servlet-name>
+        <url-pattern>/LoginSession</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InitServlet</servlet-name>
+        <servlet-class>servlet.InitServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>InitServlet</servlet-name>
+        <url-pattern>/InitServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AjaxServlet</servlet-name>
+        <servlet-class>servlet.ajax.AjaxServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AjaxServlet</servlet-name>
+        <url-pattern>/AjaxServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SendServlet</servlet-name>
+        <servlet-class>servlet.rabbitMQ.SendServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SendServlet</servlet-name>
+        <url-pattern>/SendServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SendDownServlet</servlet-name>
+        <servlet-class>servlet.rabbitMQ.SendDownServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SendDownServlet</servlet-name>
+        <url-pattern>/SendDownServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>servlet.FileUtil.UploadServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/UploadServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UploadServletAES</servlet-name>
+        <servlet-class>servlet.FileUtil.UploadServletAES</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UploadServletAES</servlet-name>
+        <url-pattern>/UploadServletAES</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
